@@ -1,0 +1,2044 @@
+{
+  "label": "pipeline_qwen",
+  "summary": {
+    "overall": {
+      "teds": {
+        "mean": 0.6181328313842832,
+        "std": 0.27615152698946716,
+        "median": 0.7148015783134288,
+        "q25": 0.5262648987028189,
+        "q75": 0.8042257156852376,
+        "min": -0.040616374778958964,
+        "max": 0.9547175329697954,
+        "count": 200
+      },
+      "teds_struct": {
+        "mean": 0.7350856220386561,
+        "std": 0.2264869390363576,
+        "median": 0.8279722079258878,
+        "q25": 0.7220790378006873,
+        "q75": 0.8726097495286831,
+        "min": 0.015789473684210575,
+        "max": 0.9807692307692307,
+        "count": 200
+      },
+      "teds_ci": {
+        "mean": 0.6181328313842832,
+        "ci_lower": 0.5799327676970751,
+        "ci_upper": 0.6574993048573576
+      },
+      "teds_struct_ci": {
+        "mean": 0.7350856220386561,
+        "ci_lower": 0.704350936217449,
+        "ci_upper": 0.7673433298935752
+      },
+      "empty_predictions": 0
+    },
+    "by_angle": {
+      "0": {
+        "teds": {
+          "mean": 0.595099907602902,
+          "std": 0.28990562027734273,
+          "median": 0.7057481814124327,
+          "q25": 0.5304550366595173,
+          "q75": 0.7858036309492165,
+          "min": -0.02052785923753664,
+          "max": 0.9310344827586207,
+          "count": 50
+        },
+        "teds_struct": {
+          "mean": 0.7156559596170723,
+          "std": 0.2498831242132569,
+          "median": 0.8340579710144929,
+          "q25": 0.669044665012407,
+          "q75": 0.8721685542971352,
+          "min": 0.06744868035190621,
+          "max": 0.9493670886075949,
+          "count": 50
+        }
+      },
+      "90": {
+        "teds": {
+          "mean": 0.6005896459008822,
+          "std": 0.26262969275720616,
+          "median": 0.6850614473143016,
+          "q25": 0.5252627943594457,
+          "q75": 0.7851218394739272,
+          "min": -0.013816758350103875,
+          "max": 0.9052069425901201,
+          "count": 50
+        },
+        "teds_struct": {
+          "mean": 0.7129131857363741,
+          "std": 0.2346627117177272,
+          "median": 0.7979057591623037,
+          "q25": 0.6928418803418803,
+          "q75": 0.8629963145817399,
+          "min": 0.015789473684210575,
+          "max": 0.9158878504672897,
+          "count": 50
+        }
+      },
+      "180": {
+        "teds": {
+          "mean": 0.6621444021311393,
+          "std": 0.2725967683075944,
+          "median": 0.7792388844475454,
+          "q25": 0.6465417737375658,
+          "q75": 0.8340741104133961,
+          "min": -0.017705952336757758,
+          "max": 0.9182523382978105,
+          "count": 50
+        },
+        "teds_struct": {
+          "mean": 0.7752890733258814,
+          "std": 0.2039749756699349,
+          "median": 0.8354978354978355,
+          "q25": 0.7995175396900847,
+          "q75": 0.8887362637362637,
+          "min": 0.13636363636363635,
+          "max": 0.9666666666666667,
+          "count": 50
+        }
+      },
+      "270": {
+        "teds": {
+          "mean": 0.6146973699022091,
+          "std": 0.2737205536063262,
+          "median": 0.7252160480269739,
+          "q25": 0.5068175566326428,
+          "q75": 0.7876592001441356,
+          "min": -0.040616374778958964,
+          "max": 0.9547175329697954,
+          "count": 50
+        },
+        "teds_struct": {
+          "mean": 0.7364842694752961,
+          "std": 0.20876775866004224,
+          "median": 0.8056066176470589,
+          "q25": 0.7389646869983949,
+          "q75": 0.8636759581881533,
+          "min": 0.15982404692082108,
+          "max": 0.9807692307692307,
+          "count": 50
+        }
+      }
+    },
+    "by_part": {
+      "fintabnet": {
+        "teds": {
+          "mean": 0.6181328313842832,
+          "std": 0.27615152698946716,
+          "median": 0.7148015783134288,
+          "q25": 0.5262648987028189,
+          "q75": 0.8042257156852376,
+          "min": -0.040616374778958964,
+          "max": 0.9547175329697954,
+          "count": 200
+        },
+        "teds_struct": {
+          "mean": 0.7350856220386561,
+          "std": 0.2264869390363576,
+          "median": 0.8279722079258878,
+          "q25": 0.7220790378006873,
+          "q75": 0.8726097495286831,
+          "min": 0.015789473684210575,
+          "max": 0.9807692307692307,
+          "count": 200
+        }
+      }
+    }
+  },
+  "error_analysis": {
+    "error_categories": {
+      "empty": 0,
+      "poor_structure": 32,
+      "poor_content": 11,
+      "acceptable": 157
+    },
+    "worst_samples": [
+      {
+        "index": 67,
+        "filename": "fintabnet_0067_rot270.png",
+        "part": "fintabnet",
+        "angle": 270,
+        "teds": -0.0406,
+        "teds_struct": 0.3099
+      },
+      {
+        "index": 64,
+        "filename": "fintabnet_0064_rot0.png",
+        "part": "fintabnet",
+        "angle": 0,
+        "teds": -0.0205,
+        "teds_struct": 0.1261
+      },
+      {
+        "index": 50,
+        "filename": "fintabnet_0050_rot180.png",
+        "part": "fintabnet",
+        "angle": 180,
+        "teds": -0.0177,
+        "teds_struct": 0.3288
+      },
+      {
+        "index": 69,
+        "filename": "fintabnet_0069_rot90.png",
+        "part": "fintabnet",
+        "angle": 90,
+        "teds": -0.0138,
+        "teds_struct": 0.2028
+      },
+      {
+        "index": 49,
+        "filename": "fintabnet_0049_rot90.png",
+        "part": "fintabnet",
+        "angle": 90,
+        "teds": -0.0073,
+        "teds_struct": 0.2713
+      },
+      {
+        "index": 75,
+        "filename": "fintabnet_0075_rot270.png",
+        "part": "fintabnet",
+        "angle": 270,
+        "teds": -0.005,
+        "teds_struct": 0.3491
+      },
+      {
+        "index": 66,
+        "filename": "fintabnet_0066_rot180.png",
+        "part": "fintabnet",
+        "angle": 180,
+        "teds": -0.0029,
+        "teds_struct": 0.2302
+      },
+      {
+        "index": 169,
+        "filename": "fintabnet_0169_rot90.png",
+        "part": "fintabnet",
+        "angle": 90,
+        "teds": -0.0015,
+        "teds_struct": 0.1496
+      },
+      {
+        "index": 184,
+        "filename": "fintabnet_0184_rot0.png",
+        "part": "fintabnet",
+        "angle": 0,
+        "teds": 0.0,
+        "teds_struct": 0.261
+      },
+      {
+        "index": 139,
+        "filename": "fintabnet_0139_rot270.png",
+        "part": "fintabnet",
+        "angle": 270,
+        "teds": 0.0003,
+        "teds_struct": 0.1598
+      }
+    ]
+  },
+  "per_sample": [
+    {
+      "index": 0,
+      "filename": "fintabnet_0000_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.7831569042578217,
+      "teds_struct": 0.944954128440367,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 1,
+      "filename": "fintabnet_0001_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.66893039049236,
+      "teds_struct": 0.736842105263158,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 2,
+      "filename": "fintabnet_0002_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.6914964078475744,
+      "teds_struct": 0.802547770700637,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 3,
+      "filename": "fintabnet_0003_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.7319166632556924,
+      "teds_struct": 0.803921568627451,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 4,
+      "filename": "fintabnet_0004_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.7799166926191218,
+      "teds_struct": 0.8846153846153846,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 5,
+      "filename": "fintabnet_0005_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.7075005721816228,
+      "teds_struct": 0.8531468531468531,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 6,
+      "filename": "fintabnet_0006_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.8301739926739926,
+      "teds_struct": 0.9230769230769231,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 7,
+      "filename": "fintabnet_0007_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.736842105263158,
+      "teds_struct": 0.8421052631578947,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 8,
+      "filename": "fintabnet_0008_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.6759889140841522,
+      "teds_struct": 0.8677248677248677,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 9,
+      "filename": "fintabnet_0009_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.7091718243088738,
+      "teds_struct": 0.7958115183246073,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 10,
+      "filename": "fintabnet_0010_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.8240740740740741,
+      "teds_struct": 0.9074074074074074,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 11,
+      "filename": "fintabnet_0011_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.8775801882130996,
+      "teds_struct": 0.9113924050632911,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 12,
+      "filename": "fintabnet_0012_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.703982128982129,
+      "teds_struct": 0.8333333333333334,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 13,
+      "filename": "fintabnet_0013_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.8691448801742919,
+      "teds_struct": 0.9084967320261438,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 14,
+      "filename": "fintabnet_0014_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.8120039682539683,
+      "teds_struct": 0.8333333333333334,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 15,
+      "filename": "fintabnet_0015_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.6980042016806722,
+      "teds_struct": 0.7205882352941176,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 16,
+      "filename": "fintabnet_0016_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.5303726783413976,
+      "teds_struct": 0.6923076923076923,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 17,
+      "filename": "fintabnet_0017_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.7839631912802645,
+      "teds_struct": 0.8269230769230769,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 18,
+      "filename": "fintabnet_0018_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.4285929745311897,
+      "teds_struct": 0.7608695652173914,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 19,
+      "filename": "fintabnet_0019_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.7462462462462462,
+      "teds_struct": 0.7702702702702703,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 20,
+      "filename": "fintabnet_0020_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.9206349206349207,
+      "teds_struct": 0.9365079365079365,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 21,
+      "filename": "fintabnet_0021_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.8571428571428572,
+      "teds_struct": 0.9047619047619048,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 22,
+      "filename": "fintabnet_0022_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.8282145380503172,
+      "teds_struct": 0.88,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 23,
+      "filename": "fintabnet_0023_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.7866566113624938,
+      "teds_struct": 0.8933333333333333,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 24,
+      "filename": "fintabnet_0024_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.5841246043644844,
+      "teds_struct": 0.7101449275362319,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 25,
+      "filename": "fintabnet_0025_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.8056879094699225,
+      "teds_struct": 0.863013698630137,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 26,
+      "filename": "fintabnet_0026_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.691430252845,
+      "teds_struct": 0.8376623376623377,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 27,
+      "filename": "fintabnet_0027_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.7620294955589073,
+      "teds_struct": 0.8,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 28,
+      "filename": "fintabnet_0028_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.6091807808771222,
+      "teds_struct": 0.7469135802469136,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 29,
+      "filename": "fintabnet_0029_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.13689988739547854,
+      "teds_struct": 0.3381742738589212,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 30,
+      "filename": "fintabnet_0030_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.7426896321104015,
+      "teds_struct": 0.819672131147541,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 31,
+      "filename": "fintabnet_0031_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.7099958308289797,
+      "teds_struct": 0.8225806451612903,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 32,
+      "filename": "fintabnet_0032_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.7075142338427363,
+      "teds_struct": 0.7901234567901234,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 33,
+      "filename": "fintabnet_0033_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.6085730130497413,
+      "teds_struct": 0.7216494845360825,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 34,
+      "filename": "fintabnet_0034_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.9182523382978105,
+      "teds_struct": 0.9666666666666667,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 35,
+      "filename": "fintabnet_0035_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.7223275208905492,
+      "teds_struct": 0.7710843373493976,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 36,
+      "filename": "fintabnet_0036_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.8746544369381739,
+      "teds_struct": 0.9019607843137255,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 37,
+      "filename": "fintabnet_0037_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.7737465445046434,
+      "teds_struct": 0.8653846153846154,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 38,
+      "filename": "fintabnet_0038_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.8590971272229823,
+      "teds_struct": 0.8604651162790697,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 39,
+      "filename": "fintabnet_0039_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.5042259487288027,
+      "teds_struct": 0.7435897435897436,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 40,
+      "filename": "fintabnet_0040_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.4243709189361363,
+      "teds_struct": 0.5675675675675675,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 41,
+      "filename": "fintabnet_0041_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.773171293605636,
+      "teds_struct": 0.8590604026845637,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 42,
+      "filename": "fintabnet_0042_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.8989795918367347,
+      "teds_struct": 0.9142857142857143,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 43,
+      "filename": "fintabnet_0043_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.509948698572688,
+      "teds_struct": 0.6363636363636364,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 44,
+      "filename": "fintabnet_0044_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.7160365119080716,
+      "teds_struct": 0.7614678899082569,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 45,
+      "filename": "fintabnet_0045_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.524761742187759,
+      "teds_struct": 0.8629441624365483,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 46,
+      "filename": "fintabnet_0046_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.7914837576821774,
+      "teds_struct": 0.7985074626865671,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 47,
+      "filename": "fintabnet_0047_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.5928128096802796,
+      "teds_struct": 0.7590361445783133,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 48,
+      "filename": "fintabnet_0048_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.7866858731796813,
+      "teds_struct": 0.868421052631579,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 49,
+      "filename": "fintabnet_0049_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": -0.007331378299120228,
+      "teds_struct": 0.27126099706744866,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 50,
+      "filename": "fintabnet_0050_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": -0.017705952336757758,
+      "teds_struct": 0.3287671232876712,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 51,
+      "filename": "fintabnet_0051_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.8857142857142857,
+      "teds_struct": 0.8857142857142857,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 52,
+      "filename": "fintabnet_0052_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.0029325513196480912,
+      "teds_struct": 0.06744868035190621,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 53,
+      "filename": "fintabnet_0053_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.8249779453377276,
+      "teds_struct": 0.8709677419354839,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 54,
+      "filename": "fintabnet_0054_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.9065868771751124,
+      "teds_struct": 0.9393939393939394,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 55,
+      "filename": "fintabnet_0055_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.0029325513196480912,
+      "teds_struct": 0.1730205278592375,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 56,
+      "filename": "fintabnet_0056_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.8271131905825301,
+      "teds_struct": 0.864406779661017,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 57,
+      "filename": "fintabnet_0057_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.7855080555384815,
+      "teds_struct": 0.8888888888888888,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 58,
+      "filename": "fintabnet_0058_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.7295830466689599,
+      "teds_struct": 0.8157894736842105,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 59,
+      "filename": "fintabnet_0059_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.3402293759527978,
+      "teds_struct": 0.47457627118644063,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 60,
+      "filename": "fintabnet_0060_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.8285356695869838,
+      "teds_struct": 0.851063829787234,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 61,
+      "filename": "fintabnet_0061_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.8037383177570093,
+      "teds_struct": 0.8317757009345794,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 62,
+      "filename": "fintabnet_0062_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.6954607892107892,
+      "teds_struct": 0.8076923076923077,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 63,
+      "filename": "fintabnet_0063_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.7879933964046829,
+      "teds_struct": 0.8536585365853658,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 64,
+      "filename": "fintabnet_0064_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": -0.02052785923753664,
+      "teds_struct": 0.12609970674486803,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 65,
+      "filename": "fintabnet_0065_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.5772335009623144,
+      "teds_struct": 0.6779661016949152,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 66,
+      "filename": "fintabnet_0066_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": -0.0029325513196480912,
+      "teds_struct": 0.23020527859237538,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 67,
+      "filename": "fintabnet_0067_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": -0.040616374778958964,
+      "teds_struct": 0.3098591549295775,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 68,
+      "filename": "fintabnet_0068_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.057148383055576124,
+      "teds_struct": 0.23619631901840488,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 69,
+      "filename": "fintabnet_0069_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": -0.013816758350103875,
+      "teds_struct": 0.20277296360485264,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 70,
+      "filename": "fintabnet_0070_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.8395799291938998,
+      "teds_struct": 0.9236111111111112,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 71,
+      "filename": "fintabnet_0071_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.9274074074074075,
+      "teds_struct": 0.9466666666666667,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 72,
+      "filename": "fintabnet_0072_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.6713362068965517,
+      "teds_struct": 0.8620689655172413,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 73,
+      "filename": "fintabnet_0073_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.6596143814713047,
+      "teds_struct": 0.8925233644859814,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 74,
+      "filename": "fintabnet_0074_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.8483285233285234,
+      "teds_struct": 0.8735632183908046,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 75,
+      "filename": "fintabnet_0075_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": -0.004996210618317898,
+      "teds_struct": 0.34911242603550297,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 76,
+      "filename": "fintabnet_0076_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.5619315089910499,
+      "teds_struct": 0.8315789473684211,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 77,
+      "filename": "fintabnet_0077_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.6665389527458493,
+      "teds_struct": 0.7724137931034483,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 78,
+      "filename": "fintabnet_0078_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.696544294485471,
+      "teds_struct": 0.8518518518518519,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 79,
+      "filename": "fintabnet_0079_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.7079783615281345,
+      "teds_struct": 0.8571428571428572,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 80,
+      "filename": "fintabnet_0080_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.4537234042553191,
+      "teds_struct": 0.5957446808510638,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 81,
+      "filename": "fintabnet_0081_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.4202490268223751,
+      "teds_struct": 0.574468085106383,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 82,
+      "filename": "fintabnet_0082_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.7821259097246205,
+      "teds_struct": 0.9383561643835616,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 83,
+      "filename": "fintabnet_0083_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.7509986993682646,
+      "teds_struct": 0.8333333333333334,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 84,
+      "filename": "fintabnet_0084_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.1384659197386422,
+      "teds_struct": 0.37168141592920356,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 85,
+      "filename": "fintabnet_0085_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.6666666666666667,
+      "teds_struct": 0.7222222222222222,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 86,
+      "filename": "fintabnet_0086_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.7884615384615384,
+      "teds_struct": 0.8846153846153846,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 87,
+      "filename": "fintabnet_0087_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.8414018668174679,
+      "teds_struct": 0.9239130434782609,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 88,
+      "filename": "fintabnet_0088_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.760095379660597,
+      "teds_struct": 0.8148148148148149,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 89,
+      "filename": "fintabnet_0089_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.7725756872178409,
+      "teds_struct": 0.8407079646017699,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 90,
+      "filename": "fintabnet_0090_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.5146911697913403,
+      "teds_struct": 0.8465608465608465,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 91,
+      "filename": "fintabnet_0091_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.617207169539672,
+      "teds_struct": 0.844311377245509,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 92,
+      "filename": "fintabnet_0092_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.9289276124719162,
+      "teds_struct": 0.9493670886075949,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 93,
+      "filename": "fintabnet_0093_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.7472810896481933,
+      "teds_struct": 0.7872340425531915,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 94,
+      "filename": "fintabnet_0094_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.6924388284131346,
+      "teds_struct": 0.8283582089552239,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 95,
+      "filename": "fintabnet_0095_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.7281045751633987,
+      "teds_struct": 0.803921568627451,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 96,
+      "filename": "fintabnet_0096_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.7026583448913546,
+      "teds_struct": 0.7961165048543689,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 97,
+      "filename": "fintabnet_0097_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.5176727403433449,
+      "teds_struct": 0.7891156462585034,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 98,
+      "filename": "fintabnet_0098_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.7263463388463388,
+      "teds_struct": 0.8333333333333334,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 99,
+      "filename": "fintabnet_0099_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.8550370533421381,
+      "teds_struct": 0.8983050847457628,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 100,
+      "filename": "fintabnet_0100_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.8629928422628635,
+      "teds_struct": 0.8975903614457832,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 101,
+      "filename": "fintabnet_0101_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.6944444444444444,
+      "teds_struct": 0.7777777777777778,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 102,
+      "filename": "fintabnet_0102_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.7870370370370371,
+      "teds_struct": 0.8536585365853658,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 103,
+      "filename": "fintabnet_0103_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.4212351104318346,
+      "teds_struct": 0.5294117647058824,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 104,
+      "filename": "fintabnet_0104_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.12748785941652996,
+      "teds_struct": 0.38014527845036317,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 105,
+      "filename": "fintabnet_0105_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.8285200156011772,
+      "teds_struct": 0.8987341772151899,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 106,
+      "filename": "fintabnet_0106_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.6975,
+      "teds_struct": 0.775,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 107,
+      "filename": "fintabnet_0107_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.25929908745107233,
+      "teds_struct": 0.44897959183673475,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 108,
+      "filename": "fintabnet_0108_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.8914835164835165,
+      "teds_struct": 0.9038461538461539,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 109,
+      "filename": "fintabnet_0109_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.08631591822014295,
+      "teds_struct": 0.26801801801801806,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 110,
+      "filename": "fintabnet_0110_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.5203005959992074,
+      "teds_struct": 0.8048780487804879,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 111,
+      "filename": "fintabnet_0111_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.851063829787234,
+      "teds_struct": 0.8829787234042553,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 112,
+      "filename": "fintabnet_0112_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.007331378299120228,
+      "teds_struct": 0.23460410557184752,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 113,
+      "filename": "fintabnet_0113_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.5267659508745056,
+      "teds_struct": 0.6944444444444444,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 114,
+      "filename": "fintabnet_0114_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.6968946214183147,
+      "teds_struct": 0.7865168539325843,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 115,
+      "filename": "fintabnet_0115_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.7997989766081871,
+      "teds_struct": 0.9736842105263158,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 116,
+      "filename": "fintabnet_0116_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.013891588381386488,
+      "teds_struct": 0.16049382716049387,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 117,
+      "filename": "fintabnet_0117_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.2450132326088007,
+      "teds_struct": 0.39156626506024095,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 118,
+      "filename": "fintabnet_0118_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.5987313638796681,
+      "teds_struct": 0.8082191780821918,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 119,
+      "filename": "fintabnet_0119_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.19035327266896496,
+      "teds_struct": 0.5,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 120,
+      "filename": "fintabnet_0120_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.581017484934531,
+      "teds_struct": 0.842911877394636,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 121,
+      "filename": "fintabnet_0121_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.3894259805103605,
+      "teds_struct": 0.6037735849056604,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 122,
+      "filename": "fintabnet_0122_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.2552590958587191,
+      "teds_struct": 0.4285714285714286,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 123,
+      "filename": "fintabnet_0123_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.8936146707909854,
+      "teds_struct": 0.9178082191780822,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 124,
+      "filename": "fintabnet_0124_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.6050537034547046,
+      "teds_struct": 0.6612903225806452,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 125,
+      "filename": "fintabnet_0125_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.045709265509171204,
+      "teds_struct": 0.09021406727828751,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 126,
+      "filename": "fintabnet_0126_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.631578947368421,
+      "teds_struct": 0.736842105263158,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 127,
+      "filename": "fintabnet_0127_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.10888614710958655,
+      "teds_struct": 0.35804701627486435,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 128,
+      "filename": "fintabnet_0128_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.4612651432637299,
+      "teds_struct": 0.7642857142857142,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 129,
+      "filename": "fintabnet_0129_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.8422459893048129,
+      "teds_struct": 0.8636363636363636,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 130,
+      "filename": "fintabnet_0130_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.7763518591704703,
+      "teds_struct": 0.829059829059829,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 131,
+      "filename": "fintabnet_0131_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.7744082840236687,
+      "teds_struct": 0.8365384615384616,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 132,
+      "filename": "fintabnet_0132_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.5425702679284226,
+      "teds_struct": 0.6226415094339622,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 133,
+      "filename": "fintabnet_0133_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.6407455227903659,
+      "teds_struct": 0.841726618705036,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 134,
+      "filename": "fintabnet_0134_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.7967395473724588,
+      "teds_struct": 0.8607594936708861,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 135,
+      "filename": "fintabnet_0135_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.7682476270575513,
+      "teds_struct": 0.8658536585365854,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 136,
+      "filename": "fintabnet_0136_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.8593881856540084,
+      "teds_struct": 0.8734177215189873,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 137,
+      "filename": "fintabnet_0137_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.6923076923076923,
+      "teds_struct": 0.6923076923076923,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 138,
+      "filename": "fintabnet_0138_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.4128112847135835,
+      "teds_struct": 0.6111111111111112,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 139,
+      "filename": "fintabnet_0139_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.0002587545282042303,
+      "teds_struct": 0.15982404692082108,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 140,
+      "filename": "fintabnet_0140_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.7817894468576481,
+      "teds_struct": 0.855072463768116,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 141,
+      "filename": "fintabnet_0141_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.823508156650194,
+      "teds_struct": 0.8780487804878049,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 142,
+      "filename": "fintabnet_0142_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.8148148148148149,
+      "teds_struct": 0.8271604938271605,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 143,
+      "filename": "fintabnet_0143_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.6668411355401844,
+      "teds_struct": 0.8072916666666666,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 144,
+      "filename": "fintabnet_0144_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.7301986939201517,
+      "teds_struct": 0.813953488372093,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 145,
+      "filename": "fintabnet_0145_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.8112857939625727,
+      "teds_struct": 0.8670886075949367,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 146,
+      "filename": "fintabnet_0146_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.841994454942244,
+      "teds_struct": 0.8901098901098901,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 147,
+      "filename": "fintabnet_0147_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.8197787873111028,
+      "teds_struct": 0.8535031847133758,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 148,
+      "filename": "fintabnet_0148_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.7148209673591157,
+      "teds_struct": 0.8760330578512396,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 149,
+      "filename": "fintabnet_0149_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.011223842739378598,
+      "teds_struct": 0.015789473684210575,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 150,
+      "filename": "fintabnet_0150_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.021994134897360684,
+      "teds_struct": 0.2859237536656891,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 151,
+      "filename": "fintabnet_0151_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.583198012758587,
+      "teds_struct": 0.7380952380952381,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 152,
+      "filename": "fintabnet_0152_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.7148086267747831,
+      "teds_struct": 0.8356164383561644,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 153,
+      "filename": "fintabnet_0153_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.7667112299465241,
+      "teds_struct": 0.8,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 154,
+      "filename": "fintabnet_0154_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.8959276018099548,
+      "teds_struct": 0.8974358974358975,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 155,
+      "filename": "fintabnet_0155_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.757463683042504,
+      "teds_struct": 0.8404907975460123,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 156,
+      "filename": "fintabnet_0156_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.9007918552036199,
+      "teds_struct": 0.9230769230769231,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 157,
+      "filename": "fintabnet_0157_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.5675634127843254,
+      "teds_struct": 0.8620689655172413,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 158,
+      "filename": "fintabnet_0158_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.7924592481920304,
+      "teds_struct": 0.8214285714285714,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 159,
+      "filename": "fintabnet_0159_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.7025037160906726,
+      "teds_struct": 0.7962962962962963,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 160,
+      "filename": "fintabnet_0160_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.9310344827586207,
+      "teds_struct": 0.9380530973451328,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 161,
+      "filename": "fintabnet_0161_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.7147945298520746,
+      "teds_struct": 0.7941176470588236,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 162,
+      "filename": "fintabnet_0162_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.004398826979472137,
+      "teds_struct": 0.13636363636363635,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 163,
+      "filename": "fintabnet_0163_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.9547175329697954,
+      "teds_struct": 0.9807692307692307,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 164,
+      "filename": "fintabnet_0164_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.8226602762317048,
+      "teds_struct": 0.8928571428571429,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 165,
+      "filename": "fintabnet_0165_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.9052069425901201,
+      "teds_struct": 0.9158878504672897,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 166,
+      "filename": "fintabnet_0166_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.8794369029663147,
+      "teds_struct": 0.8974358974358975,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 167,
+      "filename": "fintabnet_0167_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.007331378299120228,
+      "teds_struct": 0.25219941348973607,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 168,
+      "filename": "fintabnet_0168_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.7777777777777778,
+      "teds_struct": 0.8505747126436781,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 169,
+      "filename": "fintabnet_0169_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": -0.0014662756598240456,
+      "teds_struct": 0.14956011730205276,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 170,
+      "filename": "fintabnet_0170_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.08505086977161724,
+      "teds_struct": 0.41870824053452116,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 171,
+      "filename": "fintabnet_0171_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.4894162738581006,
+      "teds_struct": 0.7415730337078652,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 172,
+      "filename": "fintabnet_0172_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.7900039976890072,
+      "teds_struct": 0.8655913978494624,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 173,
+      "filename": "fintabnet_0173_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.677815202320911,
+      "teds_struct": 0.8518518518518519,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 174,
+      "filename": "fintabnet_0174_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.019061583577712593,
+      "teds_struct": 0.27419354838709675,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 175,
+      "filename": "fintabnet_0175_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.8117092681408034,
+      "teds_struct": 0.892116182572614,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 176,
+      "filename": "fintabnet_0176_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.6102736215095765,
+      "teds_struct": 0.8426966292134832,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 177,
+      "filename": "fintabnet_0177_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.8035087719298246,
+      "teds_struct": 0.8421052631578947,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 178,
+      "filename": "fintabnet_0178_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.8297872340425532,
+      "teds_struct": 0.8723404255319149,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 179,
+      "filename": "fintabnet_0179_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.7607958908679637,
+      "teds_struct": 0.803921568627451,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 180,
+      "filename": "fintabnet_0180_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.7216374269005847,
+      "teds_struct": 0.8842105263157894,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 181,
+      "filename": "fintabnet_0181_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.7791487068697148,
+      "teds_struct": 0.8723404255319149,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 182,
+      "filename": "fintabnet_0182_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.855982905982906,
+      "teds_struct": 0.8769230769230769,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 183,
+      "filename": "fintabnet_0183_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.8291139240506329,
+      "teds_struct": 0.8734177215189873,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 184,
+      "filename": "fintabnet_0184_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.0,
+      "teds_struct": 0.26099706744868034,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 185,
+      "filename": "fintabnet_0185_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.6102414421011066,
+      "teds_struct": 0.7238805970149254,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 186,
+      "filename": "fintabnet_0186_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.8353741496598639,
+      "teds_struct": 0.9285714285714286,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 187,
+      "filename": "fintabnet_0187_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.5057738426526278,
+      "teds_struct": 0.7627118644067796,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 188,
+      "filename": "fintabnet_0188_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.5307021116138764,
+      "teds_struct": 0.74,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 189,
+      "filename": "fintabnet_0189_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.640725569224555,
+      "teds_struct": 0.7931034482758621,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 190,
+      "filename": "fintabnet_0190_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.8958333333333334,
+      "teds_struct": 0.95,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 191,
+      "filename": "fintabnet_0191_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.7721811713191024,
+      "teds_struct": 0.8275862068965517,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 192,
+      "filename": "fintabnet_0192_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.7655879386314169,
+      "teds_struct": 0.8347826086956522,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 193,
+      "filename": "fintabnet_0193_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.4867024748375015,
+      "teds_struct": 0.6590909090909092,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 194,
+      "filename": "fintabnet_0194_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.7556583932603365,
+      "teds_struct": 0.8842105263157894,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 195,
+      "filename": "fintabnet_0195_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.6583797155225726,
+      "teds_struct": 0.7428571428571429,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 196,
+      "filename": "fintabnet_0196_rot0.png",
+      "part": "fintabnet",
+      "rotation_angle": 0,
+      "teds": 0.0014662756598240456,
+      "teds_struct": 0.15542521994134895,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 197,
+      "filename": "fintabnet_0197_rot90.png",
+      "part": "fintabnet",
+      "rotation_angle": 90,
+      "teds": 0.8014161490683229,
+      "teds_struct": 0.84,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 198,
+      "filename": "fintabnet_0198_rot180.png",
+      "part": "fintabnet",
+      "rotation_angle": 180,
+      "teds": 0.8902439024390244,
+      "teds_struct": 0.9024390243902439,
+      "is_empty_prediction": false
+    },
+    {
+      "index": 199,
+      "filename": "fintabnet_0199_rot270.png",
+      "part": "fintabnet",
+      "rotation_angle": 270,
+      "teds": 0.5705199247872106,
+      "teds_struct": 0.8104575163398693,
+      "is_empty_prediction": false
+    }
+  ]
+}

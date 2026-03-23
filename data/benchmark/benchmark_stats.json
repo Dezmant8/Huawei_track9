@@ -1,0 +1,37 @@
+{
+  "total_samples": 1000,
+  "failed_samples": 0,
+  "samples_per_part": {
+    "fintabnet": 250,
+    "marketing": 250,
+    "pubtabnet": 250,
+    "sparse": 250
+  },
+  "samples_per_angle": {
+    "0": 250,
+    "90": 250,
+    "180": 250,
+    "270": 250
+  },
+  "image_stats": {
+    "width": {
+      "min": 206,
+      "max": 512,
+      "mean": 480.888
+    },
+    "height": {
+      "min": 74,
+      "max": 512,
+      "mean": 354.856
+    }
+  },
+  "table_complexity": {
+    "avg_cells": 95.083,
+    "avg_rows": 13.448,
+    "avg_cols": 6.681,
+    "avg_spans": 2.927,
+    "max_cells": 232,
+    "max_rows": 25
+  },
+  "validation_issues": []
+}

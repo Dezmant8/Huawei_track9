@@ -1,0 +1,52 @@
+[2026-03-23 04:33:08] [INFO] utils.seed: All random seeds set to 42
+[2026-03-23 04:33:08] [INFO] utils.seed: Using Apple MPS (Metal Performance Shaders)
+[2026-03-23 04:33:08] [INFO] __main__: Loading rotation classifier...
+[2026-03-23 04:33:08] [INFO] __main__: Rotation classifier loaded from /Users/egorbulanov/Documents/Huawei_tasks/track9/task1/models/rotation_classifier/best_model.pth
+[2026-03-23 04:33:08] [INFO] __main__: Limited to 200 samples
+[2026-03-23 04:33:08] [INFO] __main__: Phase 1: Predicting rotation angles...
+[2026-03-23 04:33:09] [INFO] __main__: Rotation accuracy: 200/200
+[2026-03-23 04:33:09] [INFO] __main__: Classifier unloaded, MPS cache cleared
+[2026-03-23 04:33:09] [INFO] __main__: Phase 2: Loading VLM and running inference...
+[2026-03-23 04:33:10] [INFO] evaluate_baselines: Loading Qwen2.5-VL-3B from Qwen/Qwen2.5-VL-3B-Instruct on mps
+[2026-03-23 04:33:11] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-03-23 04:33:11] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-VL-3B-Instruct/66285546d2b821cf421d4f5eb2576359d3770cd3/config.json "HTTP/1.1 200 OK"
+[2026-03-23 04:33:11] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+[2026-03-23 04:33:11] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/model.safetensors.index.json "HTTP/1.1 307 Temporary Redirect"
+[2026-03-23 04:33:11] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-VL-3B-Instruct/66285546d2b821cf421d4f5eb2576359d3770cd3/model.safetensors.index.json "HTTP/1.1 200 OK"
+[2026-03-23 04:33:11] [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-VL-3B-Instruct/revision/main "HTTP/1.1 200 OK"
+[2026-03-23 04:33:14] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-03-23 04:33:14] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-VL-3B-Instruct/66285546d2b821cf421d4f5eb2576359d3770cd3/generation_config.json "HTTP/1.1 200 OK"
+[2026-03-23 04:33:15] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+[2026-03-23 04:33:15] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-03-23 04:33:15] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-VL-3B-Instruct/66285546d2b821cf421d4f5eb2576359d3770cd3/preprocessor_config.json "HTTP/1.1 200 OK"
+[2026-03-23 04:33:16] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+[2026-03-23 04:33:16] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-03-23 04:33:16] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-VL-3B-Instruct/66285546d2b821cf421d4f5eb2576359d3770cd3/preprocessor_config.json "HTTP/1.1 200 OK"
+[2026-03-23 04:33:16] [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-VL-3B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[2026-03-23 04:33:16] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+[2026-03-23 04:33:16] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/chat_template.json "HTTP/1.1 307 Temporary Redirect"
+[2026-03-23 04:33:16] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-VL-3B-Instruct/66285546d2b821cf421d4f5eb2576359d3770cd3/chat_template.json "HTTP/1.1 200 OK"
+[2026-03-23 04:33:17] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+[2026-03-23 04:33:17] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+[2026-03-23 04:33:17] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+[2026-03-23 04:33:17] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-03-23 04:33:17] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-VL-3B-Instruct/66285546d2b821cf421d4f5eb2576359d3770cd3/preprocessor_config.json "HTTP/1.1 200 OK"
+[2026-03-23 04:33:17] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+[2026-03-23 04:33:18] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-03-23 04:33:18] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-VL-3B-Instruct/66285546d2b821cf421d4f5eb2576359d3770cd3/preprocessor_config.json "HTTP/1.1 200 OK"
+[2026-03-23 04:33:18] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-03-23 04:33:18] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-VL-3B-Instruct/66285546d2b821cf421d4f5eb2576359d3770cd3/config.json "HTTP/1.1 200 OK"
+[2026-03-23 04:33:18] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-03-23 04:33:18] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-VL-3B-Instruct/66285546d2b821cf421d4f5eb2576359d3770cd3/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-03-23 04:33:18] [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-VL-3B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[2026-03-23 04:33:18] [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-VL-3B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[2026-03-23 04:33:19] [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-VL-3B-Instruct "HTTP/1.1 200 OK"
+[2026-03-23 04:33:19] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+[2026-03-23 04:33:19] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-03-23 04:33:20] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-03-23 04:33:20] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-VL-3B-Instruct/66285546d2b821cf421d4f5eb2576359d3770cd3/preprocessor_config.json "HTTP/1.1 200 OK"
+[2026-03-23 04:33:20] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+[2026-03-23 04:33:20] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-03-23 04:33:20] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-03-23 04:33:20] [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-VL-3B-Instruct/66285546d2b821cf421d4f5eb2576359d3770cd3/preprocessor_config.json "HTTP/1.1 200 OK"
+[2026-03-23 04:33:20] [INFO] evaluate_baselines: Qwen2.5-VL-3B loaded successfully

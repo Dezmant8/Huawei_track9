@@ -1,0 +1,37 @@
+[2026-03-22 21:12:47] [INFO] utils.seed: All random seeds set to 42
+[2026-03-22 21:12:47] [INFO] utils.seed: Using Apple MPS (Metal Performance Shaders)
+[2026-03-22 21:12:47] [INFO] __main__: Config: arch=resnet18, epochs=10, lr=0.001, batch_size=64, device=mps
+[2026-03-22 21:12:47] [INFO] __main__: Collecting training images...
+[2026-03-22 21:13:19] [INFO] __main__:   fintabnet (train): 5000 images
+[2026-03-22 21:13:45] [INFO] __main__:   marketing (train): 5000 images
+[2026-03-22 21:14:14] [INFO] __main__:   pubtabnet (train): 5000 images
+[2026-03-22 21:14:39] [INFO] __main__:   sparse (train): 5000 images
+[2026-03-22 21:14:39] [INFO] __main__: Total train: 20000 originals × 4 = 80000 samples
+[2026-03-22 21:14:39] [INFO] __main__: Collecting validation images...
+[2026-03-22 21:15:08] [INFO] __main__:   fintabnet (val): 500 images
+[2026-03-22 21:15:32] [INFO] __main__:   marketing (val): 500 images
+[2026-03-22 21:15:57] [INFO] __main__:   pubtabnet (val): 500 images
+[2026-03-22 21:16:19] [INFO] __main__:   sparse (val): 500 images
+[2026-03-22 21:16:19] [INFO] __main__: Total val: 2000 originals × 4 = 8000 samples
+[2026-03-22 21:16:23] [INFO] __main__: Built resnet18 with 11,178,564 parameters
+[2026-03-22 21:16:23] [INFO] __main__: Trivial baseline (always predict 0°): accuracy = 0.2500
+[2026-03-22 21:16:23] [INFO] __main__: Training for 10 epochs (early stopping patience=3)...
+[2026-03-22 21:21:31] [INFO] __main__: Epoch 1/10: train_loss=0.0534 train_acc=0.9817 val_loss=0.1106 val_acc=0.9603 lr=0.000976
+[2026-03-22 21:21:31] [INFO] __main__:   → New best model (val_acc=0.9603)
+[2026-03-22 21:26:36] [INFO] __main__: Epoch 2/10: train_loss=0.0167 train_acc=0.9949 val_loss=0.0533 val_acc=0.9798 lr=0.000905
+[2026-03-22 21:26:37] [INFO] __main__:   → New best model (val_acc=0.9798)
+[2026-03-22 21:31:42] [INFO] __main__: Epoch 3/10: train_loss=0.0097 train_acc=0.9970 val_loss=0.0722 val_acc=0.9750 lr=0.000794
+[2026-03-22 21:36:47] [INFO] __main__: Epoch 4/10: train_loss=0.0074 train_acc=0.9976 val_loss=0.0372 val_acc=0.9870 lr=0.000655
+[2026-03-22 21:36:47] [INFO] __main__:   → New best model (val_acc=0.9870)
+[2026-03-22 21:41:53] [INFO] __main__: Epoch 5/10: train_loss=0.0058 train_acc=0.9983 val_loss=0.0262 val_acc=0.9914 lr=0.000500
+[2026-03-22 21:41:53] [INFO] __main__:   → New best model (val_acc=0.9914)
+[2026-03-22 21:46:58] [INFO] __main__: Epoch 6/10: train_loss=0.0026 train_acc=0.9992 val_loss=0.0381 val_acc=0.9875 lr=0.000345
+[2026-03-22 21:52:03] [INFO] __main__: Epoch 7/10: train_loss=0.0017 train_acc=0.9994 val_loss=0.0155 val_acc=0.9949 lr=0.000206
+[2026-03-22 21:52:03] [INFO] __main__:   → New best model (val_acc=0.9949)
+[2026-03-22 21:57:09] [INFO] __main__: Epoch 8/10: train_loss=0.0011 train_acc=0.9997 val_loss=0.0255 val_acc=0.9915 lr=0.000095
+[2026-03-22 22:02:14] [INFO] __main__: Epoch 9/10: train_loss=0.0007 train_acc=0.9998 val_loss=0.0147 val_acc=0.9958 lr=0.000024
+[2026-03-22 22:02:14] [INFO] __main__:   → New best model (val_acc=0.9958)
+[2026-03-22 22:07:19] [INFO] __main__: Epoch 10/10: train_loss=0.0006 train_acc=0.9998 val_loss=0.0110 val_acc=0.9969 lr=0.000000
+[2026-03-22 22:07:19] [INFO] __main__:   → New best model (val_acc=0.9969)
+[2026-03-22 22:08:00] [INFO] __main__: Confusion matrix plot saved to /Users/egorbulanov/Documents/Huawei_tasks/track9/task1/models/rotation_classifier/confusion_matrix.png
+[2026-03-22 22:08:00] [INFO] __main__: Training log saved to /Users/egorbulanov/Documents/Huawei_tasks/track9/task1/models/rotation_classifier/training_log.json

@@ -1,0 +1,29 @@
+# ML framework
+torch>=2.1.0
+torchvision>=0.16.0
+transformers>=4.40.0
+accelerate>=0.27.0
+
+# VLM-specific
+qwen-vl-utils>=0.0.8
+
+# Table metrics (TEDS)
+apted>=1.0.3
+python-Levenshtein>=0.25.0
+lxml>=5.0.0
+beautifulsoup4>=4.12.0
+
+# Data & utils
+Pillow>=10.0.0
+numpy>=1.24.0
+jsonlines>=4.0.0
+tqdm>=4.65.0
+requests>=2.31.0
+
+# Model architectures
+timm>=1.0.0
+
+# Analysis & visualization
+matplotlib>=3.7.0
+seaborn>=0.13.0
+scipy>=1.11.0
